@@ -59,12 +59,13 @@ It includes 5 endpoint
 ## POC Front End
 
 1.- We used the used the regenerating api-client tool
-1.- It was developed a POC for Saving single maze from a txt file service endpoint
-2.- It was developed a POC for Getting All Mazes already stored mazes enpoint
+2.- It was developed a POC for Saving single maze from a txt file service endpoint
+3.- It was developed a POC for Getting All Mazes already stored mazes enpoint
 
 * NOTES:
-  * Due to lack of time we could include more code changes.
+  * Due to lack of time we couldn't include more code changes.
   * We kept the StuffServiceName.
+  * If you refresh the home page a new instance of the maze will be stored and and you will verify it in the second call response (mazeAll) 
   * Missing Create Maze view:
     * It will store all user changes in a model to be translated into the formatted file, the translation could be manage in the service class or in another more specific service trying to achieve Single Responsibility for that propose.
   * Missing list of all Mazes created.
