@@ -58,14 +58,21 @@ It includes 5 endpoint
   
 ## POC Front End
 
-* Missing Create Maze view:
-  * It will store all user changes in a model to be translated into the formatted file, the translation could be manage in the service class or in another more specific service trying to achieve Single Responsibility for that propose.
-* Missing list of all Mazes created.
-  * This will be the starting point for selecting a single maze and start playing.
-* Missing a Maze view.
-  * It can be storing, as a input property, the maze state that includes Maze Id, current position (x, y), and track path
-  * It will be asking the API the for the allowed next possible steps every time the current position state suffer a change.
-  * It would be analyzed if it is better to manage the state by using Observable service injected in a higher level component.
-* Missing to unit test for each new component.
-* Missing to accurate the new existing endpoint routes in the API.
+1.- We used the used the regenerating api-client tool
+1.- It was developed a POC for Saving single maze from a txt file service endpoint
+2.- It was developed a POC for Getting All Mazes already stored mazes enpoint
+
+* NOTES:
+  * Due to lack of time we could include more code changes.
+  * We kept the StuffServiceName.
+  * Missing Create Maze view:
+    * It will store all user changes in a model to be translated into the formatted file, the translation could be manage in the service class or in another more specific service trying to achieve Single Responsibility for that propose.
+  * Missing list of all Mazes created.
+    * This will be the starting point for selecting a single maze and start playing.
+  * Missing a Maze view.
+    * It can be storing, as a input property, the maze state that includes Maze Id, current position (x, y), and track path
+    * It will be asking the API the for the allowed next possible steps every time the current position state suffer a change.
+    * It would be analyzed if it is better to manage the state by using Observable service injected in a higher level component.
+  * Missing to unit test for each new component.
+  * Missing to accurate the new existing endpoint routes in the API.
 
